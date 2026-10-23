@@ -153,6 +153,25 @@ h1,h2{
 .info {
     color: green;
 }
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: orange;
+}
+input:focus{
+    outline: 2px solid blue;
+    background-color: lightyellow;
+}
+    
 </style>
         <a href="https://www.google.com">Open Google</a>
         
@@ -430,5 +449,9 @@ placeholder="Type your feedback here... "
 <p class="info">I am learning CSS</p>
 
 <p class="info">My goal is Software Developer</p>
+<button>Click Me</button>
+<br><br>
+<label for="username">Your Name:</label>
+<input type="text" id="username">
 </body>
 </html>
