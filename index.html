@@ -171,12 +171,19 @@ input:focus{
     outline: 2px solid blue;
     background-color: lightyellow;
 }
-    
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+    gap: 20px;
+} 
+
 </style>
         <a href="https://www.google.com">Open Google</a>
-        
         <hr>
-
         <h2>
             MY Skills
         </h2>
@@ -449,5 +456,11 @@ placeholder="Type your feedback here... "
 <br><br>
 <label for="username">Your Name:</label>
 <input type="text" id="username">
+
+<div class="container">
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>JavaScript</p>
+</div>
 </body>
 </html>
